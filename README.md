@@ -1,18 +1,14 @@
+### Bible-Endtimes
+#### Date Created - 3/14/2017
+#### This site was recycled from another project of the same name.
+##### Reason: Could not set up MEAN stack on client's server. Reverting to plain Angular.
 
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
+### Known issues
+1. Critical issues - none
+2. Serious issues - none
+3. Moderate issues - none
+4. Minor issues - none
 
-
-Hi there! Welcome to Cloud9 IDE!
-
-To get you started, create some files, play with the terminal,
-or visit http://docs.c9.io for our documentation.
-If you want, you can also go watch some training videos at
-http://www.youtube.com/user/c9ide.
-
-Happy coding!
-The Cloud9 IDE team
+### Changelog
+1. Features added - none
+2. Bugs fixed - none
