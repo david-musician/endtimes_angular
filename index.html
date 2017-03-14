@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html ng-app="BibleEndtimes">
+    <head>
+        <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bible Endtimes.com</title>
+        
+        <!-- BEGIN THEME DEPENDENCIES -->
+        
+        <!-- Bootstrap Core CSS -->
+        <link rel="stylesheet" href="theme/vendor/bootstrap/css/bootstrap.min.css">
+        
+        <!-- Theme CSS -->
+        <link rel="stylesheet" href="theme/css/freelancer.min.css">
+        
+        <!-- Custom Fonts -->
+        <link href="theme/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+        
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+        
+        <!-- END THEME DEPENDENCIES -->
+        
+        <!-- Custom Styles -->
+        <link rel="stylesheet" href="stylesheets/style.css">
+    </head>
+    
+    <body ng-controller="MainController as mc">
+        <noscript>
+            <div class="container">
+                <br>
+                You do not have Javascript enabled. This site won't work without Javascript!
+                <br>
+                Please enable Javascript to view Bible-Endtimes.com!
+            </div>
+        </noscript>
+        <!-- Navigation -->
+        <site-nav></site-nav>
+        
+        <!-- Views -->
+        <home-view ng-show="mc.homeView"></home-view>
+        <about-view ng-show="mc.aboutView"></about-view>
+        <download-view ng-show="mc.downloadView"></download-view>
+        <contact-view ng-show="mc.contactView"></contact-view>
+        <misc-view ng-show="mc.miscView"></misc-view>
+        <donate-view ng-show="mc.donateView"></donate-view>
+        
+        <!-- Footer -->
+        <site-footer></site-footer>
+        <!-- Angular dependencies -->  
+        <script src="angular/angular.js"></script>
+        <!--<script src="/angular/angular.min.js"></script>-->
+        <!--<script src="/angular/angular-route.min.js"></script>-->
+        <!--
+        <script src="/angular/angular-sanitize.min.js"></script>
+        <script src="/angular/ui-bootstrap-2.2.0.min.js"></script>
+        <script src="/angular/ui-bootstrap-tpls-2.2.0.min.js"></script>-->
+        
+        <!-- Include Client Javascript Files -->
+        <script src="app.js"></script>
+        
+        <!-- Directives --
+        <script src="/common/directives/siteNav/siteNav.directive.js"></script>
+        <script src="/common/directives/footer/footer.directive.js"></script>
+        <sctipr src="/common/directives/contact/contact.directive.js">
+        
+        <!-- Controllers --
+        <script src="/home/home.controller.js"></script>
+        <script src="/about/about.controller.js"></script>
+        <script src="/download/download.controller.js"></script>
+        <script src="/contact/contact.controller.js"></script>
+        <script src="/donate/donate.controller.js"></script>
+        
+        <!-- jQuery -->
+        <script src="theme/vendor/jquery/jquery.min.js"></script>
+    
+        <!-- Bootstrap Core JavaScript -->
+        <script src="theme/vendor/bootstrap/js/bootstrap.min.js"></script>
+    
+        <!-- Plugin JavaScript --
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    
+        <!-- Contact Form JavaScript --
+        <script src="theme/js/jqBootstrapValidation.js"></script>
+        <script src="theme/js/contact_me.js"></script>
+    
+        <!-- Theme JavaScript -->
+        <script src="theme/js/freelancer.min.js"></script>
+        
+        <!-- Contact Form JavaScript --
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-validator/0.5.3/js/bootstrapValidator.js"></script>
+        <script src="javascripts/contact.js"></script>-->
+    </body>
+</html>
